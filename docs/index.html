@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <!-- Add any other necessary styles or scripts here -->
+    <style>
+        .image-container {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Vertically center items */
+        }
+
+        .image {
+            max-width: 100%; /* Ensure image doesn't exceed container width */
+            margin-right: 20px; /* Add spacing between image and text */
+        }
+
+        .text {
+            flex: 1; /* Allow text to take remaining width */
+        }
+    </style>
 </head>
 <body>
     <h1>Commute Republic</h1>
@@ -12,10 +27,10 @@
 
     </a>
     <div class="image-container">
-        <a href="CITY_RETREAT_via_MAIN RD/map400_008_CR_CITY_RETREAT_via_MAIN RD.html" target="_blank">
-            <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Clickable Map Image" width="200" height="200" >
+        <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Clickable Map Image" width="200" height="200" >     
+        <div class="text">
             <a href="https://www.gabs.co.za/Pdf/Rpdf/RETREAT___CAPE_TOWN_from_20240318_to_99999999_000802.pdf" target="_blank">Cape Town to Retreat Station (via M4)</a>
-        </a>
+        </div>
     </div>
     <!-- Add other content or sections of your landing page here -->
 </body>

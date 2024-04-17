@@ -1,98 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commute Republic Times and Routes</title>
-    <!-- Add any other necessary styles or scripts here -->
-    <style>
-          body {
-            background-image: url('CR_background.jpeg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-          }
-    </style>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
 
-    <style>
-        /* Create a grid container for the images */
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
-            gap: 50px; /* Spacing between grid blocks */
-            background-color: white; /* White background for each grid block */
-            padding: 100px; /* Add some padding for spacing around the grid */
-        }
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
-        /* Style each image within the grid */
-        .image-grid img {
-            max-width: 100%;
-            max-height: 100%;
-            display: block;
-            margin: 0 auto; /* Center the image horizontally */
-        }
-    </style>
-    <style>
-        .emerald-link {
-            background-color: #008000; /* Emerald color */
-            padding: 50px; /* Add padding for spacing */
-            text-decoration: none; /* Remove underline from link */
-            color: white; /* Set text color to white for contrast */
-        }
-    </style>
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
-    <h1>Commute Republic</h1>
-    <p>Golden Arrow Bus Routes and Timetables:</p>
 
-    <div class="image-grid">
-        <div>
-            <a href="./CITY_RETREAT_via_MAIN RD/map400_008_CR_CITY_RETREAT_via_MAIN RD.html" target="_blank">
-                <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Cape Town to Retreat Station (via M4)" width="200" height="200" background-color="#008000">
-            </a>
-            <div class="text" style="border: 2px solid #FFD700;">
-                <a href="https://www.gabs.co.za/Pdf/Rpdf/RETREAT___CAPE_TOWN_from_20240318_to_99999999_000802.pdf" target="_blank" style="background-color: #008000;">Cape Town to Retreat Station (via M4)</a>
-            </div>
-        </div>
-        <div>
-            <a href="./CITY_BELLVILLE_via_VOORTREKKER RD/map720_001_AR_CITY_BELLVILLE_via_VOORTREKKER RD.html" target="_blank">
-                <img src="CITY_BELLVILLE_via_VOORTREKKER RD/city_bellville.png" alt="Cape Town to Retreat Station (via M4)" width="200" height="200">
-            </a>
-            <div class="text">
-                <a href="https://www.gabs.co.za/Pdf/Bpdf/BELLVILLE___CAPE_TOWN_from_20240226_to_20240414_000101.pdf" target="_blank">Cape Town to Bellville Station (via Voortrekker)</a>
-            </div>
-        </div>
-        <div>
-            <a href="./HOUT BAY HARBOUR_WYNBERG_via_VICTORIA RD, PRINCESS RD, HOUTBAY BEACH, MAIN, CONSTANTIA, MAIN, WETTON/map648_032_H_HOUT BAY HARBOUR_WYNBERG_via_VICTORIA RD, PRINCESS RD, HOUTBAY BEACH, MAIN, CONSTANTIA, MAIN, WETTON.html" target="_blank">
-                <img src="HOUT BAY HARBOUR_WYNBERG_via_VICTORIA RD, PRINCESS RD, HOUTBAY BEACH, MAIN, CONSTANTIA, MAIN, WETTON/houtbay_wynberg.png" alt="Hout Bay Harbour to Wynberg Station (via Constantia)" width="200" height="200">
-            </a>
-            <div class="text">
-                <a href="https://www.gabs.co.za/Pdf/Hpdf/HOUT_BAY___WYNBERG_from_20240225_to_99999999_003202.pdf" target="_blank">Hout Bay Harbour to Wynberg Station (via Constantia)</a>
-            </div>
-        </div>
-        <div>
-            <a href="./CITY_EDGEMEAD_via_CENTURY CITY/map364_005_N_CITY_EDGEMEAD_via_N1 FREEWAY, RATANGA CENTURY CITY, BOSMANSDAM, VRYBURGER VIA BOTHASIG, EDGEMEAD DR.html" target="_blank">
-                <img src="CITY_EDGEMEAD_via_CENTURY CITY/city_edgemead.png" alt="Cape Town to Edgemead (via Century City)" width="200" height="200">
-            </a>
-            <div class="text">
-                <a href="https://www.gabs.co.za/Pdf/Epdf/EDGEMEAD___CAPE_TOWN_from_20240330_to_99999999_000502.pdf" target="_blank">Cape Town to Edgemead (via Century City)</a>
-            </div>
-        </div>
-        
-        <!-- Repeat the above image block for each image you want to add -->
-        <!-- For example, add another image block here -->
-        <!-- <div>
-            <a href="image_link_here" target="_blank">
-                <img src="image_source_here" alt="Image Description" width="200" height="200">
-            </a>
-            <div class="text">
-                <a href="image_link_here" target="_blank">Image Caption</a>
-            </div>
-        </div> -->
-    </div>
-    <!-- Add other content or sections of your landing page here -->
+<h2>Responsive Image Gallery</h2>
+
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="CITY_RETREAT_via_MAIN RD/city_retreat.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:12px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+</div>
+
     <a href="https://www.buymeacoffee.com/acommutaa" target="_blank">
         <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;">
     </a>
@@ -101,6 +116,8 @@
     </a>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5311812061105987" crossorigin="anonymous">    
     </script>
+    
 </body>
 </html>
+
 

@@ -2,9 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5311812061105987"
-crossorigin="anonymous"></script>
-<meta name="google-adsense-account" content="ca-pub-5311812061105987">
 <style>
       body {
         background-image: url('CR_background.jpeg');
@@ -13,11 +10,13 @@ crossorigin="anonymous"></script>
         background-size: cover;
       }
 </style>
+
 <style>
 div.gallery {
   border: 1px solid #ccc;
   background-color:#ffffff;
 }
+
 
 div.gallery:hover {
   border: 1px solid #777;
@@ -62,18 +61,64 @@ div.desc {
   clear: both;
 }
 </style>
+
 </head>
 
+<style>
+.filterdiv {
+
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
 <body>
-
-<h1>Golden Arrow Bus Routes and Timetables</h1>
+<h1>Golden Arrow Maps</h1>
 <p>Produced for Commute Republic</p>
-<p>Last Updated 2024-05-14</p>
 
-<div class="responsive">
+<h4>Filter Routes
+<div id="myBtnContainer">
+<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+<button class="btn" onclick="filterSelection('B')"> B</button>
+<button class="btn" onclick="filterSelection('D')"> D</button>
+<button class="btn" onclick="filterSelection('K')"> K</button>
+<button class="btn" onclick="filterSelection('M')"> M</button>
+<button class="btn" onclick="filterSelection('R')"> R</button>
+<button class="btn" onclick="filterSelection('T')"> T</button>
+<button class="btn" onclick="filterSelection('W')"> W</button>
+</div>
+</h4><div class="container">
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_CAPE TOWN_via_77T/map77_T_TOWN CENTRE___CAPE TOWN_via_ROCKLANDS.html">
-                              <img src="./TOWN CENTRE_CAPE TOWN_via_77T/thumb77_T_TOWN CENTRE___CAPE TOWN.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_CAPE TOWN_via_77E/map77_E_TOWN CENTRE___CAPE TOWN_via_ROCKLANDS.html">
+                              <img src="./TOWN CENTRE_CAPE TOWN_via_77E/thumb77_E_TOWN CENTRE___CAPE TOWN.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___CAPE_TOWN_from_20240304_to_99999999_007702.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to CAPE TOWN via ROCKLANDS Timetable
@@ -81,10 +126,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv M">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./MOWBRAY_TOWN CENTRE_via_77T/map77_T_MOWBRAY___TOWN CENTRE_via_KLIPFONTEIN ROAD.html">
-                              <img src="./MOWBRAY_TOWN CENTRE_via_77T/thumb77_T_MOWBRAY___TOWN CENTRE.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./MOWBRAY_TOWN CENTRE_via_77E/map77_E_MOWBRAY___TOWN CENTRE_via_KLIPFONTEIN ROAD.html">
+                              <img src="./MOWBRAY_TOWN CENTRE_via_77E/thumb77_E_MOWBRAY___TOWN CENTRE.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Mpdf/MOWBRAY___TOWN_CENTRE_from_20240304_to_99999999_007702.pdf" target="_blank" style="background-color: #ffffff;">MOWBRAY to TOWN CENTRE via KLIPFONTEIN ROAD Timetable
@@ -92,10 +139,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_MOWBRAY_via_77T/map77_T_TOWN CENTRE___MOWBRAY_via_ROCKLANDS.html">
-                              <img src="./TOWN CENTRE_MOWBRAY_via_77T/thumb77_T_TOWN CENTRE___MOWBRAY.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_MOWBRAY_via_77E/map77_E_TOWN CENTRE___MOWBRAY_via_ROCKLANDS.html">
+                              <img src="./TOWN CENTRE_MOWBRAY_via_77E/thumb77_E_TOWN CENTRE___MOWBRAY.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to MOWBRAY via ROCKLANDS Timetable
@@ -103,10 +152,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_CAPE TOWN_via_78T/map78_T_TOWN CENTRE___CAPE TOWN_via_MERRYDALE RD.html">
-                              <img src="./TOWN CENTRE_CAPE TOWN_via_78T/thumb78_T_TOWN CENTRE___CAPE TOWN.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_CAPE TOWN_via_78E/map78_E_TOWN CENTRE___CAPE TOWN_via_MERRYDALE RD.html">
+                              <img src="./TOWN CENTRE_CAPE TOWN_via_78E/thumb78_E_TOWN CENTRE___CAPE TOWN.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___CAPE_TOWN_from_20240513_to_99999999_007802.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to CAPE TOWN via MERRYDALE RD Timetable
@@ -114,10 +165,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv M">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./MOWBRAY_TOWN CENTRE_via_78T/map78_T_MOWBRAY___TOWN CENTRE_via_BELGRAVIA RD.html">
-                              <img src="./MOWBRAY_TOWN CENTRE_via_78T/thumb78_T_MOWBRAY___TOWN CENTRE.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./MOWBRAY_TOWN CENTRE_via_78E/map78_E_MOWBRAY___TOWN CENTRE_via_BELGRAVIA RD.html">
+                              <img src="./MOWBRAY_TOWN CENTRE_via_78E/thumb78_E_MOWBRAY___TOWN CENTRE.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Mpdf/MOWBRAY___TOWN_CENTRE_from_20240513_to_99999999_007802.pdf" target="_blank" style="background-color: #ffffff;">MOWBRAY to TOWN CENTRE via BELGRAVIA RD Timetable
@@ -125,10 +178,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_CLAREMONT_via_81T/map81_T_TOWN CENTRE___CLAREMONT_via_ROCKLANDS.html">
-                              <img src="./TOWN CENTRE_CLAREMONT_via_81T/thumb81_T_TOWN CENTRE___CLAREMONT.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_CLAREMONT_via_81E/map81_E_TOWN CENTRE___CLAREMONT_via_ROCKLANDS.html">
+                              <img src="./TOWN CENTRE_CLAREMONT_via_81E/thumb81_E_TOWN CENTRE___CLAREMONT.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___CLAREMONT_from_20240115_to_99999999_008102.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to CLAREMONT via ROCKLANDS Timetable
@@ -136,10 +191,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_CLAREMONT_via_82T/map82_T_TOWN CENTRE___CLAREMONT_via_KATDORING.html">
-                              <img src="./TOWN CENTRE_CLAREMONT_via_82T/thumb82_T_TOWN CENTRE___CLAREMONT.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_CLAREMONT_via_82E/map82_E_TOWN CENTRE___CLAREMONT_via_KATDORING.html">
+                              <img src="./TOWN CENTRE_CLAREMONT_via_82E/thumb82_E_TOWN CENTRE___CLAREMONT.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___CLAREMONT_from_20240108_to_99999999_008202.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to CLAREMONT via KATDORING Timetable
@@ -147,43 +204,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv R">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./WYNBERG_TOWN CENTRE_via_89T/map89_T_WYNBERG___TOWN CENTRE_via_OTTERY.html">
-                              <img src="./WYNBERG_TOWN CENTRE_via_89T/thumb89_T_WYNBERG___TOWN CENTRE.png" alt="WYNBERG/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Wpdf/WYNBERG___TOWN_CENTRE_from_20240513_to_99999999_008902.pdf" target="_blank" style="background-color: #ffffff;">WYNBERG to TOWN CENTRE via OTTERY Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_WYNBERG_via_89T/map89_T_TOWN CENTRE___WYNBERG_via_EISLEBEN.html">
-                              <img src="./TOWN CENTRE_WYNBERG_via_89T/thumb89_T_TOWN CENTRE___WYNBERG.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___WYNBERG_from_20240513_to_99999999_008902.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to WYNBERG via EISLEBEN Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./KILLARNEY_HARARE_via_66T/map66_T_KILLARNEY___HARARE_via_MONTAGUE DR.html">
-                              <img src="./KILLARNEY_HARARE_via_66T/thumb66_T_KILLARNEY___HARARE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Kpdf/KILLARNEY___HARARE_from_20240513_to_99999999_006602.pdf" target="_blank" style="background-color: #ffffff;">KILLARNEY to HARARE via MONTAGUE DR Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./RETREAT_CAPE TOWN_via_8T/map8_T_RETREAT___CAPE TOWN_via_MAIN RD.html">
-                              <img src="./RETREAT_CAPE TOWN_via_8T/thumb8_T_RETREAT___CAPE TOWN.png" alt="RETREAT/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./RETREAT_CAPE TOWN_via_8E/map8_E_RETREAT___CAPE TOWN_via_MAIN RD.html">
+                              <img src="./RETREAT_CAPE TOWN_via_8E/thumb8_E_RETREAT___CAPE TOWN.png" alt="RETREAT/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Rpdf/RETREAT___CAPE_TOWN_from_20240422_to_99999999_000802.pdf" target="_blank" style="background-color: #ffffff;">RETREAT to CAPE TOWN via MAIN RD Timetable
@@ -191,10 +217,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv D">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./DURBANVILLE_CAPE TOWN_via_15T/map15_T_DURBANVILLE___CAPE TOWN_via_DURBAN RD.html">
-                              <img src="./DURBANVILLE_CAPE TOWN_via_15T/thumb15_T_DURBANVILLE___CAPE TOWN.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./DURBANVILLE_CAPE TOWN_via_15E/map15_E_DURBANVILLE___CAPE TOWN_via_DURBAN RD.html">
+                              <img src="./DURBANVILLE_CAPE TOWN_via_15E/thumb15_E_DURBANVILLE___CAPE TOWN.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Dpdf/DURBANVILLE___CAPE_TOWN_from_20240401_to_99999999_001502.pdf" target="_blank" style="background-color: #ffffff;">DURBANVILLE to CAPE TOWN via DURBAN RD Timetable
@@ -202,10 +230,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv K">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./KILLARNEY_TOWN CENTRE_via_91T/map91_T_KILLARNEY___TOWN CENTRE_via_MONTAGUE DR.html">
-                              <img src="./KILLARNEY_TOWN CENTRE_via_91T/thumb91_T_KILLARNEY___TOWN CENTRE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./KILLARNEY_TOWN CENTRE_via_91E/map91_E_KILLARNEY___TOWN CENTRE_via_MONTAGUE DR.html">
+                              <img src="./KILLARNEY_TOWN CENTRE_via_91E/thumb91_E_KILLARNEY___TOWN CENTRE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Kpdf/KILLARNEY___TOWN_CENTRE_from_20240513_to_99999999_009102.pdf" target="_blank" style="background-color: #ffffff;">KILLARNEY to TOWN CENTRE via MONTAGUE DR Timetable
@@ -213,32 +243,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./BELLVILLE_DURBANVILLE_via_25T/map25_T_BELLVILLE___DURBANVILLE_via_CHARL MALAN STR.html">
-                              <img src="./BELLVILLE_DURBANVILLE_via_25T/thumb25_T_BELLVILLE___DURBANVILLE.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Bpdf/BELLVILLE___DURBANVILLE_from_20240513_to_99999999_002502.pdf" target="_blank" style="background-color: #ffffff;">BELLVILLE to DURBANVILLE via CHARL MALAN STR Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./DURBANVILLE_BELLVILLE_via_25T/map25_T_DURBANVILLE___BELLVILLE_via_PLEIN.html">
-                              <img src="./DURBANVILLE_BELLVILLE_via_25T/thumb25_T_DURBANVILLE___BELLVILLE.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Dpdf/DURBANVILLE___BELLVILLE_from_20240513_to_99999999_002502.pdf" target="_blank" style="background-color: #ffffff;">DURBANVILLE to BELLVILLE via PLEIN Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_KILLARNEY_via_91T/map91_T_TOWN CENTRE___KILLARNEY_via_WESPOORT.html">
-                              <img src="./TOWN CENTRE_KILLARNEY_via_91T/thumb91_T_TOWN CENTRE___KILLARNEY.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_KILLARNEY_via_91E/map91_E_TOWN CENTRE___KILLARNEY_via_WESPOORT.html">
+                              <img src="./TOWN CENTRE_KILLARNEY_via_91E/thumb91_E_TOWN CENTRE___KILLARNEY.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___KILLARNEY_from_20240513_to_99999999_009102.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to KILLARNEY via WESPOORT Timetable
@@ -246,10 +256,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv B">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./BELLVILLE_MOWBRAY_via_23T/map23_T_BELLVILLE___MOWBRAY_via_BELRAIL.html">
-                              <img src="./BELLVILLE_MOWBRAY_via_23T/thumb23_T_BELLVILLE___MOWBRAY.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./BELLVILLE_MOWBRAY_via_23E/map23_E_BELLVILLE___MOWBRAY_via_BELRAIL.html">
+                              <img src="./BELLVILLE_MOWBRAY_via_23E/thumb23_E_BELLVILLE___MOWBRAY.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Bpdf/BELLVILLE___MOWBRAY_from_20240115_to_99999999_002302.pdf" target="_blank" style="background-color: #ffffff;">BELLVILLE to MOWBRAY via BELRAIL Timetable
@@ -257,10 +269,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv M">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./MOWBRAY_BELLVILLE_via_23T/map23_T_MOWBRAY___BELLVILLE_via_DURBAN RD.html">
-                              <img src="./MOWBRAY_BELLVILLE_via_23T/thumb23_T_MOWBRAY___BELLVILLE.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./MOWBRAY_BELLVILLE_via_23E/map23_E_MOWBRAY___BELLVILLE_via_DURBAN RD.html">
+                              <img src="./MOWBRAY_BELLVILLE_via_23E/thumb23_E_MOWBRAY___BELLVILLE.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Mpdf/MOWBRAY___BELLVILLE_from_20240115_to_99999999_002302.pdf" target="_blank" style="background-color: #ffffff;">MOWBRAY to BELLVILLE via DURBAN RD Timetable
@@ -268,10 +282,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv B">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./BELLVILLE_CAPE TOWN_via_1T/map1_T_BELLVILLE___CAPE TOWN_via_VOORTREKKER RD.html">
-                              <img src="./BELLVILLE_CAPE TOWN_via_1T/thumb1_T_BELLVILLE___CAPE TOWN.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./BELLVILLE_CAPE TOWN_via_1E/map1_E_BELLVILLE___CAPE TOWN_via_VOORTREKKER RD.html">
+                              <img src="./BELLVILLE_CAPE TOWN_via_1E/thumb1_E_BELLVILLE___CAPE TOWN.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Bpdf/BELLVILLE___CAPE_TOWN_from_20240226_to_99999999_000102.pdf" target="_blank" style="background-color: #ffffff;">BELLVILLE to CAPE TOWN via VOORTREKKER RD Timetable
@@ -279,10 +295,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv K">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./KILLARNEY_CAPE TOWN_via_2T/map2_T_KILLARNEY___CAPE TOWN_via_KOEBERG RD.html">
-                              <img src="./KILLARNEY_CAPE TOWN_via_2T/thumb2_T_KILLARNEY___CAPE TOWN.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./KILLARNEY_CAPE TOWN_via_2E/map2_E_KILLARNEY___CAPE TOWN_via_KOEBERG RD.html">
+                              <img src="./KILLARNEY_CAPE TOWN_via_2E/thumb2_E_KILLARNEY___CAPE TOWN.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Kpdf/KILLARNEY___CAPE_TOWN_from_20240318_to_99999999_000202.pdf" target="_blank" style="background-color: #ffffff;">KILLARNEY to CAPE TOWN via KOEBERG RD Timetable
@@ -290,21 +308,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv B">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./MOWBRAY_NYANGA_via_43T/map43_T_MOWBRAY___NYANGA_via_KLIPFONTEIN RD.html">
-                              <img src="./MOWBRAY_NYANGA_via_43T/thumb43_T_MOWBRAY___NYANGA.png" alt="MOWBRAY/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Mpdf/MOWBRAY___NYANGA_from_20240513_to_99999999_004302.pdf" target="_blank" style="background-color: #ffffff;">MOWBRAY to NYANGA via KLIPFONTEIN RD Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./BELLVILLE_NYANGA_via_44T/map44_T_BELLVILLE___NYANGA_via_KASSELSVLEI RD.html">
-                              <img src="./BELLVILLE_NYANGA_via_44T/thumb44_T_BELLVILLE___NYANGA.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./BELLVILLE_NYANGA_via_44E/map44_E_BELLVILLE___NYANGA_via_KASSELSVLEI RD.html">
+                              <img src="./BELLVILLE_NYANGA_via_44E/thumb44_E_BELLVILLE___NYANGA.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Bpdf/BELLVILLE___NYANGA_from_20240427_to_99999999_004402.pdf" target="_blank" style="background-color: #ffffff;">BELLVILLE to NYANGA via KASSELSVLEI RD Timetable
@@ -312,10 +321,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv W">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./WYNBERG_NYANGA_via_60T/map60_T_WYNBERG___NYANGA_via_BROAD.html">
-                              <img src="./WYNBERG_NYANGA_via_60T/thumb60_T_WYNBERG___NYANGA.png" alt="WYNBERG/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./WYNBERG_NYANGA_via_60E/map60_E_WYNBERG___NYANGA_via_BROAD.html">
+                              <img src="./WYNBERG_NYANGA_via_60E/thumb60_E_WYNBERG___NYANGA.png" alt="WYNBERG/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Wpdf/WYNBERG___NYANGA_from_20240115_to_99999999_006002.pdf" target="_blank" style="background-color: #ffffff;">WYNBERG to NYANGA via BROAD Timetable
@@ -323,32 +334,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv K">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./HARARE_BELLVILLE_via_62T/map62_T_HARARE___BELLVILLE_via_TAMBO.html">
-                              <img src="./HARARE_BELLVILLE_via_62T/thumb62_T_HARARE___BELLVILLE.png" alt="HARARE/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Hpdf/HARARE___BELLVILLE_from_20240513_to_99999999_006202.pdf" target="_blank" style="background-color: #ffffff;">HARARE to BELLVILLE via TAMBO Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./BELLVILLE_HARARE_via_62T/map62_T_BELLVILLE___HARARE_via_MODDERDAM.html">
-                              <img src="./BELLVILLE_HARARE_via_62T/thumb62_T_BELLVILLE___HARARE.png" alt="BELLVILLE/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Bpdf/BELLVILLE___HARARE_from_20240513_to_99999999_006202.pdf" target="_blank" style="background-color: #ffffff;">BELLVILLE to HARARE via MODDERDAM Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./KILLARNEY_BELLVILLE_via_105T/map105_T_KILLARNEY___BELLVILLE_via_POTSDAM.html">
-                              <img src="./KILLARNEY_BELLVILLE_via_105T/thumb105_T_KILLARNEY___BELLVILLE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./KILLARNEY_BELLVILLE_via_105E/map105_E_KILLARNEY___BELLVILLE_via_POTSDAM.html">
+                              <img src="./KILLARNEY_BELLVILLE_via_105E/thumb105_E_KILLARNEY___BELLVILLE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Kpdf/KILLARNEY___BELLVILLE_from_20240219_to_99999999_010502.pdf" target="_blank" style="background-color: #ffffff;">KILLARNEY to BELLVILLE via POTSDAM Timetable
@@ -356,10 +347,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv K">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./KILLARNEY_NYANGA_via_104T/map104_T_KILLARNEY___NYANGA_via_MONTAGUE DR.html">
-                              <img src="./KILLARNEY_NYANGA_via_104T/thumb104_T_KILLARNEY___NYANGA.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./KILLARNEY_NYANGA_via_104E/map104_E_KILLARNEY___NYANGA_via_MONTAGUE DR.html">
+                              <img src="./KILLARNEY_NYANGA_via_104E/thumb104_E_KILLARNEY___NYANGA.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Kpdf/KILLARNEY___NYANGA_from_20240401_to_99999999_010402.pdf" target="_blank" style="background-color: #ffffff;">KILLARNEY to NYANGA via MONTAGUE DR Timetable
@@ -367,10 +360,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv K">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./KILLARNEY_DURBANVILLE_via_105T/map105_T_KILLARNEY___DURBANVILLE_via_POTSDAM.html">
-                              <img src="./KILLARNEY_DURBANVILLE_via_105T/thumb105_T_KILLARNEY___DURBANVILLE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./KILLARNEY_DURBANVILLE_via_105E/map105_E_KILLARNEY___DURBANVILLE_via_POTSDAM.html">
+                              <img src="./KILLARNEY_DURBANVILLE_via_105E/thumb105_E_KILLARNEY___DURBANVILLE.png" alt="KILLARNEY/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Kpdf/KILLARNEY___DURBANVILLE_from_20240219_to_99999999_010502.pdf" target="_blank" style="background-color: #ffffff;">KILLARNEY to DURBANVILLE via POTSDAM Timetable
@@ -378,10 +373,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv D">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./DURBANVILLE_KILLARNEY_via_105T/map105_T_DURBANVILLE___KILLARNEY_via_CHURCH.html">
-                              <img src="./DURBANVILLE_KILLARNEY_via_105T/thumb105_T_DURBANVILLE___KILLARNEY.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./DURBANVILLE_KILLARNEY_via_105E/map105_E_DURBANVILLE___KILLARNEY_via_CHURCH.html">
+                              <img src="./DURBANVILLE_KILLARNEY_via_105E/thumb105_E_DURBANVILLE___KILLARNEY.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Dpdf/DURBANVILLE___KILLARNEY_from_20240219_to_99999999_010502.pdf" target="_blank" style="background-color: #ffffff;">DURBANVILLE to KILLARNEY via CHURCH Timetable
@@ -389,32 +386,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv D">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_RETREAT_via_124T/map124_T_TOWN CENTRE___RETREAT_via_WESPOORT.html">
-                              <img src="./TOWN CENTRE_RETREAT_via_124T/thumb124_T_TOWN CENTRE___RETREAT.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___RETREAT_from_20240513_to_99999999_012402.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to RETREAT via WESPOORT Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./RETREAT_TOWN CENTRE_via_124T/map124_T_RETREAT___TOWN CENTRE_via_CONCERT BLVD.html">
-                              <img src="./RETREAT_TOWN CENTRE_via_124T/thumb124_T_RETREAT___TOWN CENTRE.png" alt="RETREAT/CAPE TOWN" width="200" height="200">
-                            </a>
-                            <div class="desc">
-                                <a href="https://www.gabs.co.za/Pdf/Rpdf/RETREAT___TOWN_CENTRE_from_20240513_to_99999999_012402.pdf" target="_blank" style="background-color: #ffffff;">RETREAT to TOWN CENTRE via CONCERT BLVD Timetable
-                                </a>
-                            </div>
-                          </div>
-                        </div>
-<div class="responsive">
-                          <div class="gallery">
-                            <a target="_blank" href="./DURBANVILLE_NYANGA_via_139T/map139_T_DURBANVILLE___NYANGA_via_DURBANVILLE.html">
-                              <img src="./DURBANVILLE_NYANGA_via_139T/thumb139_T_DURBANVILLE___NYANGA.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./DURBANVILLE_NYANGA_via_139E/map139_E_DURBANVILLE___NYANGA_via_DURBANVILLE.html">
+                              <img src="./DURBANVILLE_NYANGA_via_139E/thumb139_E_DURBANVILLE___NYANGA.png" alt="DURBANVILLE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Dpdf/DURBANVILLE___NYANGA_from_20240427_to_99999999_013902.pdf" target="_blank" style="background-color: #ffffff;">DURBANVILLE to NYANGA via DURBANVILLE Timetable
@@ -422,10 +399,12 @@ div.desc {
                             </div>
                           </div>
                         </div>
-<div class="responsive">
+                      </div>
+	<div class="filterdiv T">
+                        <div class="responsive">
                           <div class="gallery">
-                            <a target="_blank" href="./TOWN CENTRE_BELLVILLE_via_85T/map85_T_TOWN CENTRE___BELLVILLE_via_WESPOORT.html">
-                              <img src="./TOWN CENTRE_BELLVILLE_via_85T/thumb85_T_TOWN CENTRE___BELLVILLE.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
+                            <a target="_blank" href="./TOWN CENTRE_BELLVILLE_via_85E/map85_E_TOWN CENTRE___BELLVILLE_via_WESPOORT.html">
+                              <img src="./TOWN CENTRE_BELLVILLE_via_85E/thumb85_E_TOWN CENTRE___BELLVILLE.png" alt="TOWN CENTRE/CAPE TOWN" width="200" height="200">
                             </a>
                             <div class="desc">
                                 <a href="https://www.gabs.co.za/Pdf/Tpdf/TOWN_CENTRE___BELLVILLE_from_20240422_to_99999999_008502.pdf" target="_blank" style="background-color: #ffffff;">TOWN CENTRE to BELLVILLE via WESPOORT Timetable
@@ -433,9 +412,56 @@ div.desc {
                             </div>
                           </div>
                         </div>
+                      </div></div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterdiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
 
 <div class="clearfix"></div>
-
+<p>Last Updated 2024-05-18</p>
 <div style="padding:12px;">
   <p> The maps and timetables provided on this website are intended for informational purposes only. By accessing and using this website, you acknowledge and agree to the exclusions and limitations of liability as detailed in our <a href="disclaimer.html">Website Disclaimer</a>.</p>
 </div>
@@ -443,6 +469,12 @@ div.desc {
         <img src="CR_logo.png" alt="Commute Republic" style="height: 174px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;">
     </a>
 
+    <a href="https://www.buymeacoffee.com/acommutaa" target="_blank">
+        <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;">
+    </a>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5311812061105987" crossorigin="anonymous">    
+    </script>
     <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input type="hidden" name="hosted_button_id" value="NJBL29JY8JEF6" />
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
